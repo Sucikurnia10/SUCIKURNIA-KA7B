@@ -15,5 +15,7 @@ class HomeController extends Controller
     public function contact(){
         return('Nama : Suci Kurniawati <br> Nim : D212011032 <br> Kelas : KA7B <br> Email : sucikurnia.watie@gmail.com');
     }
-    
+    public function Index(){
+        return view('home.index');
+    }
 }
